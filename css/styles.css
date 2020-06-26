@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.top-nav {
+    position: relative;
+    top: 0;
+}
+
+#hero-image {
+    width: 100vw;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
