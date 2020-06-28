@@ -5,34 +5,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <title>Los Angeles Mountains</title>
 </head>
 <body>
-    <div class='hero'>
-        <img id='hero-image' src="images/hero-image.png" alt="logo image">
-    <nav id='top-nav'>
-        <img id='top-logo' src="images/logo.png" alt="logo image">
-    </nav>
+    <!-- Top Section -->
+    <div class="top-bg-img">
+        <div class="container">
+            <div class="logo-img">
+                <img src="images/logo.png" alt="">
+            </div>
+            <nav class="top-nav">
+                <a href="#middle-nav"><span>01. HISTORY</span></a>
+                <a href="#btm-info"><span>02. TEAM</span></a>
+            </nav>
+        </div>
     </div>
+    <!-- Mid Section -->
+    <div class="mid-bg-img">
+        <div id='middle-nav'>
+            <div class="container">
+                <div class="logo-img">
+                    <img src="images/logo.png" alt="">
+                    <img src="images/logo-text.png" alt="">
+                </div>
+                <nav class="middle-nav">
+                    <a href="#middle-nav"><span>01. HISTORY</span></a>
+                    <a href="#btm-info"><span>02. TEAM</span></a>
+                </nav>
+            </div>
+        </div>
 
-    <div>
-        <nav id='middle-nav'>
-        </nav>
+        <div class="container">
+        <img src="images/01.png" alt="1. History">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A expedita necessitatibus nemo rerum minima, est porro? Asperiores illum, cupiditate earum quae magnam doloremque distinctio repellendus dignissimos aliquam facilis necessitatibus minima!</p>
+        </div>
+        
+        <div class="gallery">
+            <div class="slider">
+                <div class="slides">
+                    <div id="slide-1">
+                        <img src="images/photo1.png" alt="">
+                    </div>
+                    <div id="slide-2">
+                        <img src="images/photo2.png" alt="">   
+                    </div>
+                    <div id="slide-3">
+                        <img src="images/photo1.png" alt="">
+                    </div>
+                    <div id="slide-3">
+                        <img src="images/photo2.png" alt="">
+                    </div>
+                </div>
+                
+                <a href="#gallery"></a>
+                <a href="#gallery"></a>
+                <a href="#gallery"></a>
+            </div>
+        </div>
+
     </div>
-
-    <section id="history">
-
-    </section>
-
-    <section id='climb'>
-        <nav id='mountain-nav'>
-
-        </nav>
-    </section>
+    <!-- Bottom Section -->
+    <div class="btm-bg-img">
+            <div id='btm-info'> 
+                <img src="images/02.png" alt="2. CLIMB">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A expedita necessitatibus nemo rerum minima, est porro?</p>
+            </div>
+            <div id="btm-nav">
+            <div class="container">
+            <nav class="btm-nav">
+                <a class="active" href=""><span>MOUNTAIN 1</span></a>
+                <a href=""><span>MOUNTAIN 2</span></a>
+            </nav>
+            </div>
+            </div>
+            <div class="schedule">
+                <h3>SCHEDULE</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A expedita necessitatibus nemo rerum minima, est porro? Asperiores illum, cupiditate earum quae magnam doloremque distinctio repellendus dignissimos aliquam facilis necessitatibus minima!</p>
+                </div>
+        </div>
+    </div>
 
     <footer>
-        <p id='copyright-info'>&copy;2016 All rights reserved.</p>
+        <div class='footer-container'>
+            <div class="logo-img">
+                <img src="images/logo.png" alt="">
+                <img src="images/logo-text.png" alt="">
+            </div>
+        <p id='copyright-info'>COPYRIGHT 2016. ALL RIGHTS RESERVED.</p>
+        </div>
     </footer>
 </body>
 </html>
